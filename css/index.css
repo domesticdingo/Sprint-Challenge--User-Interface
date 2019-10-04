@@ -147,9 +147,9 @@ footer nav a {
 
 nav {
     display: flex;
-    width: 100%;
+    width: 800px;
+    margin: 0 auto;
     justify-content: space-between;
-    padding: 2%;
 }
 
 nav a{
