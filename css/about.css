@@ -147,8 +147,8 @@ footer {
     display: flex;
     background-color: black;
     justify-content: space-between;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 footer a{

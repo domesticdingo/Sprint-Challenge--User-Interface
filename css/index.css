@@ -126,33 +126,17 @@ p {
     padding-right: 0;
 }
 
-footer {
-    width: 100%;
-    background: black;
-}
 
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
 
-footer nav a {
-    color: white;
-    text-decoration: none;
-}
-
-nav {
+.navigation {
     display: flex;
     width: 800px;
     margin: 0 auto;
     justify-content: space-between;
 }
 
-nav a{
+.navigation a{
+    margin-top: 25px;
     text-decoration: none;
     color: black;
 }
@@ -242,4 +226,21 @@ header {
     height: 100%;
     text-align: center;
     padding-top: 42%;
+}
+
+footer {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    margin-right: 25px;
 }
