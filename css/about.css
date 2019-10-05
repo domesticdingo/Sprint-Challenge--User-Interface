@@ -1,0 +1,159 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    border-top: 1px dashed black;
+}
+
+/* code start */
+
+.navigation {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.navigation a{
+    margin-top: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+header img{
+    padding-bottom: 3%;
+}
+
+.column1 .column2{
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 45%;
+    justify-items: space-between;
+}
+
+.columns {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 2%;
+    margin-bottom: 2%;
+}
+
+.infoBox {
+    border-bottom: 1px dashed black;
+    padding: 2%;
+    margin-top: 2%;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px 20px;
+}
+
+.together {
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    margin-right: 25px;
+}
